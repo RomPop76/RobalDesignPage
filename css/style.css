@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    font-size: 10px;
 }
 
 body {
@@ -15,5 +17,60 @@ body {
     width: 100%;
     height: 100px;
     background-color: rgba(35, 64, 148, 0.7);
-    font-family: 'roboto', sans-serif;
 }
+
+.headerCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+
+.logoRobal img {
+height: 100px;
+cursor: pointer;
+
+}
+
+.menu {
+    font-weight: 500;
+    width: 50%;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu2 a {
+    font-size: 2rem;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 1rem;
+}
+
+a:after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* background: #242e6c; */
+    background: linear-gradient(90deg, transparent, #12c6f3);
+    transition: width 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+a:hover {
+    color: #12c6f3;
+}
+
