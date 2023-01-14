@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
     font-size: 10px;
+    /* overflow: hidden; */
 }
 
 body {
@@ -69,8 +70,23 @@ a:after {
 a:hover:after {
     width: 100%;
 }
-
+ 
 a:hover {
     color: #12c6f3;
 }
 
+.baner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../image/Tshirt_baner.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.baner img {
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   width: 30%;
+}
