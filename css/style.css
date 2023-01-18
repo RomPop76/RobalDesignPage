@@ -143,14 +143,22 @@ i:hover {
 /* Sekcja "O nas" */
 
 section.aboutUs {
-    margin: 80px 0 0 100px;
-    border-left: 5px solid var(--blue);
+    /* margin: 80px 0 0 100px; */
+    /* border-left: 5px solid var(--blue); */
 }
 
-div.About {
+div.about {
+    margin-top: 80px;
+    width: 80%;
+    margin: 0 auto;
     padding-left: 20px;
     color: var(--fontColor);
 }
+
+div.aboutTittle {
+
+}
+
 
 div.About h1 {
     font-size: 5rem;
