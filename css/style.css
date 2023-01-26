@@ -146,13 +146,15 @@ div.about {
     display: flex;
     margin: 80px auto;
     width: 80%;
-    height: 500px;
+    height: 500px;  /*Do wywalenia*/
+    background-color: aqua; /*Do wywalenia*/
 }
 
 div.aboutText {
     display: flex;
     flex-direction: column;
     width: 50%;
+    background-color: blueviolet; /*Do wywalenia*/
 }
 
 div.aboutImage {
@@ -207,4 +209,40 @@ div.aboutImage img {
     width: 100%;
     margin: auto 0;
     border-radius: 20px;
+}
+
+div.weWork {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    width: 80%;
+    height: 500px;  /*Do wywalenia*/
+    background-color: aqua; /*Do wywalenia*/
+}
+
+div.howWeWorkText {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blueviolet; /*Do wywalenia*/
+}
+
+div.howWeWorkTittle {
+    width: 100%;
+    border-left: 5px solid var(--blue);
+    padding-left: 2rem;
+}
+
+div.howWeWorkTittle h2 {
+    font-size: 3.5rem;
+    color: var(--fontColor);
+}
+
+div.howWeWorkDescription {
+    width: 100%;
+    margin-top: 30px;
+}
+
+div.howWeWorkDescription p {
+    font-size: 2rem;
 }
