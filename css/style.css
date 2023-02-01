@@ -247,25 +247,11 @@ div.howWeWorkSections {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
-    background-color: burlywood;
 }
 
 div.howWeWorkSection {
     width: 20%;
-    background-color:darkolivegreen;
     text-align: center;
-}
-
-div.howWeWorkSection:nth-child(2) {
-    background-color:aquamarine;
-}
-
-div.howWeWorkSection:nth-child(3) {
-    background-color:darkgoldenrod;
-}
-
-div.howWeWorkSection:nth-child(4) {
-    background-color:cornflowerblue
 }
 
 div.howWeWorkSection i {
