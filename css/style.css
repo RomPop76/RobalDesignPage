@@ -16,7 +16,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 500vh;
 }
 
 .start {
@@ -104,7 +104,6 @@ a:hover {
     position: absolute;
     top: 60%;
     left: 40%;
-    font-family: 'roboto', sans-serif;
     font-size: 2.5rem;
     padding: 10px 30px;
     transform: translate(-50%, -50%);
@@ -141,6 +140,22 @@ i:hover {
 }
 
 /* Sekcja "O nas" */
+
+
+.aboutUs i {
+    position: fixed;
+    font-size: 4rem;
+    color: var(--fontColor);
+    right: 2%;
+    top: 90%;
+    transform: rotate(180deg);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.aboutUs i:hover {
+    color: var(--blue);
+}
 
 div.about {
     display: flex;
@@ -272,4 +287,37 @@ div.howWeWorkSection p:nth-of-type(2) {
     text-align: center;
     font-size: 1.6rem;
     color: var(--fontColor);
+}
+
+div.image {
+    width: 100vw;
+    height: 60vh;
+    background-image: url('../image/mountains1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div.imageText {
+    position: relative;
+    top: 40%;
+    left: 50%;
+    border-left: 5px solid var(--blue);
+    padding-left: 2rem;
+}
+
+div.imageText p:nth-of-type(1) {
+    font-size: 4rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+div.imageText p:nth-of-type(2) {
+    font-size: 4rem;
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+div.imageText p:nth-of-type(3) {
+    font-size: 2.5rem;
+    color: white;
 }
