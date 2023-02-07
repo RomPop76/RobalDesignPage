@@ -139,7 +139,7 @@ i:hover {
     color: var(--blue);
 }
 
-/* Sekcja "O nas" */
+/* Sekcja "aboutUs" i "Portfol" */
 
 
 .aboutUs i {
@@ -222,6 +222,8 @@ div.aboutImage img {
     margin: auto 0;
     border-radius: 20px;
 }
+
+/* Sekcja "howWeWork" */
 
 div.weWork {
     display: flex;
@@ -321,3 +323,5 @@ div.imageText p:nth-of-type(3) {
     font-size: 2.5rem;
     color: white;
 }
+
+/* Sekcja "Portfol" */
