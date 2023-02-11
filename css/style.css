@@ -6,7 +6,6 @@
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
     font-size: 10px;
-    /* overflow: hidden; */
 }
 
 :root {
@@ -15,9 +14,9 @@
     --fontColor: rgb(81, 94, 107);
 }
 
-body {
-    height: 500vh;
-}
+/* body {
+    height: 1000vh;
+} */
 
 .start {
     display: flex;
@@ -325,3 +324,11 @@ div.imageText p:nth-of-type(3) {
 }
 
 /* Sekcja "Portfol" */
+
+div.image2 {
+    width: 100vw;
+    height: 60vh;
+    background-image: url('../image/mountains2.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+}
