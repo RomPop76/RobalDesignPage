@@ -354,3 +354,16 @@ div.shopImage {
     width: 80%;
     background-color: #12c6f3;
 }
+
+.shops .aboutImage img {
+    width: 90%;
+}
+
+.shopImage {
+    display: flex;
+}
+
+.shopImage div {
+    width: 30%;
+    height: 20%;
+}
