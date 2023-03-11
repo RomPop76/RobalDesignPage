@@ -404,3 +404,74 @@ div.howWeWorkSection2 p:nth-of-type(2) {
     font-size: 2rem;
     color: white;
 }
+
+/* Sekcja "Kontakt" */
+
+div.aboutContact {
+    width: 100%;
+    margin-top: 60px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+div.aboutContact i {
+    font-size: 3rem;
+    width: 60px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+.fa-map-marker {
+    border-color: green;
+    background-color: green;
+}
+
+.fa-phone {
+    border-color: blue;
+    background-color: blue;
+}
+
+.fa-envelope {
+    border-color: purple;
+    background-color: purple;
+}
+
+.fa-clock-o {
+    border-color: red;
+    background-color: red;
+}
+
+div.aboutContact p {
+    font-size: 2rem;
+    margin-left:  20px;
+}
+
+.contact {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.contactText p:nth-of-type(1) {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.contact:nth-of-type(1) p:nth-of-type(1) {
+    color: green;
+}
+
+.contact:nth-of-type(2) p:nth-of-type(1) {
+    color: blue;
+}
+
+.contact:nth-of-type(3) p:nth-of-type(1) {
+    color: purple;
+}
+
+.contact:nth-of-type(4) p:nth-of-type(1) {
+    color: red;
+}
