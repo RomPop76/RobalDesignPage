@@ -241,15 +241,26 @@
           </div>
           </div>
         </div>
-        <div class="aboutImage">
-          <form action="mailto:r.popielas@gmail.com" method="post">
+        <div class="aboutContact2">
+          <form action="mailto:r.popielas@gmail.com" method="post" class="formStyle">
             <div class="contactgroup">
-              <label>Imię i Nazwisko</label>
+              <label for="sendName">Imię i Nazwisko</label>
               <input type="text" placeholder="Wpisz imię i nazwisko" name="sendName">
             </div>
             <div class="contactgroup">
-              <label for="sendName" class>Imię i Nazwisko</label>
-              <input type="text" placeholder="Wpisz imię i nazwisko" name="sendName">
+              <label for="sendPhone" class>Telefon</label>
+              <input type="text" placeholder="Wpisz swój numer telefonu" name="sendPhone">
+            </div>
+            <div class="contactgroup">
+              <label for="sendEmial" class>E-mail</label>
+              <input type="email" placeholder="Wpisz swój e-mail" name="sendEmail">
+            </div>
+            <div class="contactgroup">
+              <label for="coment" class>Twoje pytanie</label>
+              <textarea placeholder="Wpisz swoje pytanie" rows="9" name="coment"></textarea>
+            </div>
+            <div class="contactgroup">
+              <button type="submit">Wyślij wiadomość</button>
             </div>
           </form>
         </div>
