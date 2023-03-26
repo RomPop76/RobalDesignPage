@@ -409,7 +409,7 @@ div.howWeWorkSection2 p:nth-of-type(2) {
 
 div.aboutContact {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 160px;
     padding-right: 30px;
     text-align: justify;
 }
@@ -501,4 +501,24 @@ div.aboutContact p {
 .contactgroup textarea {
     height: 200px;
     padding-top: 20px;
+}
+
+.contactgroup button {
+    font-size: 2rem;
+    color: white;
+    padding: 10px 30px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contactgroup button:hover {
+    background-color: var(--blueHover);
+    }
+
+.map {
+    width: 500x;
+    height: 450px;
 }
