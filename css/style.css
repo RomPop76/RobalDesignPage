@@ -215,7 +215,7 @@ div.aboutDescription button {
 
 div.aboutDescription button:hover {
     background-color: var(--blueHover);
-    }
+}
 
 div.aboutImage img {
     width: 100%;
@@ -518,7 +518,44 @@ div.aboutContact p {
     background-color: var(--blueHover);
     }
 
-.map {
-    width: 500x;
-    height: 450px;
+div.howWeWorkSections3 {
+        width: 100%;
+        height: 250px;
+        background-color: var(--blue);
+}
+
+div.howWeWorkSection3 {
+        /* width: 20%; */
+        text-align: center;
+}
+
+div.howWeWorkSection3 p:nth-of-type(1) {
+    padding: 50px;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+
+div.howWeWorkSection3 button {
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    color: white;
+    padding: 10px 30px;
+    background-color: var(--blue);
+    border: 2px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+div.howWeWorkSection3 button:hover {
+    background-color: var(--blueHover);
+}
+
+footer {
+    height: 400px;
+    background-color: var(--blueHover);
+
 }
