@@ -554,7 +554,7 @@ div.howWeWorkSection3 button:hover {
     background-color: var(--blueHover);
 }
 
-footer {
+.something {
     height: 400px;
     background-color: var(--blueHover);
 
