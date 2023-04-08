@@ -14,9 +14,9 @@
     --fontColor: rgb(81, 94, 107);
 }
 
-/* body {
-    height: 1000vh;
-} */
+body {
+    overflow-x: hidden;
+}
 
 .start {
     display: flex;
@@ -166,11 +166,25 @@ div.aboutText {
     display: flex;
     flex-direction: column;
     width: 50%;
+    transform: translateX(-100vw);
+    transition: .6s;
+}
+
+div.aboutText.active {
+    transform: translateX(0);
 }
 
 div.aboutImage {
     width: 50%;
     margin: auto;
+    transform: translateX(100vw);
+    transition: .6s;
+}
+
+div.aboutImage.active {
+    width: 50%;
+    margin: auto;
+    transform: translateX(0);
 }
 
 div.aboutTittle {
@@ -558,4 +572,17 @@ div.howWeWorkSection3 button:hover {
     height: 400px;
     background-color: var(--blueHover);
 
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    line-height: 90px;
+}
+
+footer p {
+    font-size: 2rem;
+    text-align: center;
 }
