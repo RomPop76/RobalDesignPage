@@ -167,7 +167,7 @@ div.aboutText {
     flex-direction: column;
     width: 50%;
     transform: translateX(-100vw);
-    transition: .6s;
+    transition: .8s;
 }
 
 div.aboutText.active {
@@ -178,12 +178,10 @@ div.aboutImage {
     width: 50%;
     margin: auto;
     transform: translateX(100vw);
-    transition: .6s;
+    transition: .8s;
 }
 
 div.aboutImage.active {
-    width: 50%;
-    margin: auto;
     transform: translateX(0);
 }
 
